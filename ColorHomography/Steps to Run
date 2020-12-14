@@ -1,0 +1,7 @@
+python ColorCorrection.py -r ./clrchr.png -t ./Images -o ./correctedImages -c ./Improvement.csv
+
+Help:
+-r -> Path to reference image
+-t -> Path to a folder containing all the target images 
+-o -> Path to a folder to store a concatenated target image before and after correction
+-c -> Path to csv file for writing % improvement
